@@ -1,0 +1,15 @@
+# Netlify headers. HTTPS, www redirect and compression are handled by Netlify itself.
+
+/*
+  Strict-Transport-Security: max-age=31536000
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: SAMEORIGIN
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), interest-cohort=()
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; object-src 'none'
+
+# Hashed build assets never change: cache for a year.
+# Only Vite-hashed files may live in /assets: never create a public/assets/ folder
+# (files copied from public/ keep their name and would stay cached for a year).
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
