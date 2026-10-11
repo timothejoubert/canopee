@@ -3,7 +3,7 @@
   "configurations": [
     {
       "name": "canopee",
-      "runtimeExecutable": "npm",
+      "runtimeExecutable": "pnpm",
       "runtimeArgs": [
         "run",
         "dev"
@@ -12,7 +12,7 @@
     },
     {
       "name": "canopee-dist",
-      "runtimeExecutable": "npm",
+      "runtimeExecutable": "pnpm",
       "runtimeArgs": [
         "run",
         "preview"
