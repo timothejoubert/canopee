@@ -1,3 +1,34 @@
+# Dependencies
 node_modules/
+
+# Build output (deployed to OVH, not versioned)
 dist/
+dist-ssr/
+
+# Vite cache
+.vite/
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# OS
 .DS_Store
+Thumbs.db
+
+# Editors
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp
+
+# Claude Code: personal settings (launch.json stays shared)
+.claude/settings.local.json
