@@ -1,58 +1,72 @@
-# Canopée — feuille de route
+# Canopée — feuille de route du site
 
-## Où on en est
+Mise à jour : 11 octobre 2026
 
-- [x] Contenu extrait du Google Sites → `CONTENU.md`
-- [x] Version statique vanilla, reproduction à l'identique, images provisoires
-- [ ] Repo Git (pas encore prêt, le code est dans `canopee/`)
+## Où en est le site
 
-## Décisions à prendre
+Le site est en ligne sur **https://canopee-bois.fr**.
 
-| # | Sujet | Options | Qui | Statut |
-|---|---|---|---|---|
-| D1 | Message principal | « Du plan à la pose » (conception + réalisation) / artisan charpentier-couvreur local / autre | Jonas + nous | À décider |
-| D2 | Cibles | Particuliers seuls / + architectes, maîtres d'œuvre / + sous-traitance pour d'autres artisans | Jonas | À décider |
-| D3 | Nom et baseline | Garder « Entreprise structures bois » / l'aligner sur l'activité réelle (charpente, couverture, zinguerie) | Jonas | À décider |
-| D4 | Périmètre des savoir-faire | 4 actuels / + ossature bois / + étude et conception | Jonas | À décider |
-| D5 | Structure du site | One-page enrichi / multi-pages (une page par savoir-faire, meilleur référencement) | Nous | À décider |
-| D6 | Engagement matériaux | Bois local, biosourcé : oui (et argumenté) / non | Jonas | À décider |
-| D7 | Contact | Téléphone + mail seuls / + formulaire (traitement des données, RGPD) | Nous | À décider |
-| D8 | Hébergement et nom de domaine | `canopee-bois.fr` : qui le détient, où héberger | Jonas + nous | À décider |
-| D9 | Canaux hors site | Google Business Profile / Instagram / supports physiques (panneau de chantier, véhicule, cartes) | Jonas | À décider |
+C'est pour l'instant une reproduction fidèle du Google Sites, avec quelques améliorations déjà faites :
 
-## Informations à récupérer auprès de Jonas
+- [x] Contenu, textes et images repris du Google Sites
+- [x] Logo et pictogrammes des savoir-faire redessinés au propre, aux couleurs exactes (vert et orange)
+- [x] Mise en page, espacements et typographie retravaillés pour une lecture plus confortable, sur ordinateur comme sur téléphone
+- [x] Téléphone et email cliquables (appel ou email en un clic depuis un téléphone)
+- [x] Site rapide : la page complète pèse environ 135 Ko, elle s'affiche quasi instantanément, même en 4G
+- [x] Bases du référencement Google : titre et description de la page, fiche d'entreprise lisible par Google (activité, téléphone, email, Crest, Drôme), aperçu soigné quand le lien est partagé
+- [x] Accessibilité de base : contrastes, navigation au clavier, textes alternatifs sur les images
+- [x] Nom de domaine `canopee-bois.fr` relié au site, connexion sécurisée (HTTPS)
+- [x] Hébergement sur Netlify, gratuit pour un site de cette taille
 
-- [ ] Parcours, formation, années d'expérience
-- [ ] Attestation d'assurance décennale, SIRET, statut (EI) → mentions légales
-- [ ] Zone d'intervention précise (communes, rayon)
-- [ ] Types de clients et de chantiers les plus fréquents
-- [ ] 5 à 10 réalisations en photo (avant/après si possible)
-- [ ] Photo portrait de lui
-- [ ] Avis clients existants
-- [ ] Fichiers sources du logo et des visuels (vectoriel)
+## À faire en priorité
 
-## Phases
+- [ ] **Mentions légales.** Elles sont obligatoires pour un professionnel. Il manque pour les rédiger : le SIRET, l'adresse professionnelle et le statut (entreprise individuelle).
 
-### Phase 1 — Mise en ligne de la reproduction
-- Intégrer les vraies images et la police Karla (hébergée sur le site)
-- Mentions légales (obligatoires)
-- Corriger les coquilles évidentes
-- Initialiser le repo, choisir l'hébergement (D8)
+## Les questions pour Jonas
 
-### Phase 2 — Stratégie et édito
-Dépend de D1 à D6.
-- Réécrire l'accueil (titre explicite + bouton « Demander un devis »)
-- Découper la présentation : « Qui je suis » / « Ma façon de travailler » (étapes)
-- Revoir les savoir-faire (cartes manquantes, descriptions homogènes)
-- Ajouter : réalisations, zone d'intervention, FAQ courte
-- Éléments de confiance : décennale, devis gratuit, avis
+Ces choix orientent la suite du site. Il n'y a pas de mauvaise réponse, l'idée est d'en discuter ensemble.
 
-### Phase 3 — Visibilité locale
-- SEO local : titres, meta, données structurées `LocalBusiness`, communes desservies
-- Fiche Google Business Profile
-- Demande d'avis systématique en fin de chantier
+1. **Le message principal.** Qu'est-ce qui te distingue d'un autre charpentier-couvreur ? Notre proposition : *« du plan à la pose »*, c'est-à-dire un seul interlocuteur qui sait concevoir (études, plans, 3D) et réaliser. Est-ce que ça te ressemble ?
+2. **Tes clients.** Le site s'adresse-t-il seulement aux particuliers, ou aussi aux architectes, maîtres d'œuvre et autres artisans (sous-traitance) ?
+3. **Le nom et l'accroche.** « Entreprise structures bois » correspond-il bien à ton activité ? Le site parle surtout de charpente, couverture et zinguerie.
+4. **Tes savoir-faire.** Faut-il ajouter l'ossature bois et l'étude / conception aux quatre métiers actuels ?
+5. **Les matériaux.** Travailles-tu avec du bois local ou des matériaux biosourcés ? Si oui, c'est un vrai argument à mettre en avant.
+6. **Le contact.** Téléphone et email suffisent-ils, ou veux-tu un formulaire de demande de devis ?
+7. **En dehors du site.** Es-tu partant pour une fiche Google (Google Business Profile), un compte Instagram de chantier, un panneau de chantier, un marquage véhicule ?
 
-### Phase 4 — Améliorations design
-- Retravailler la mise en page au-delà de la reproduction
-- Audit RGAA (contrastes vert/orange, clavier, alternatives) avec Timothé / Manuel
-- Optimisation images (WebP), performances
+## Ce qu'il nous faudrait de ta part
+
+- [ ] SIRET, adresse professionnelle, statut (pour les mentions légales)
+- [ ] Attestation d'assurance décennale (à mentionner sur le site, ça rassure)
+- [ ] Ton parcours : formation, années d'expérience, ce qui t'a amené au métier
+- [ ] Ta zone d'intervention précise (communes, ou rayon autour de Crest)
+- [ ] Tes types de chantiers les plus fréquents
+- [ ] 5 à 10 photos de réalisations (avant / après si possible)
+- [ ] Une photo portrait de toi
+- [ ] Des avis clients, si tu en as déjà
+- [ ] Le visuel « Bienvenue » en fichier vectoriel (SVG), pour qu'il reste net sur les grands écrans
+- [ ] Le logo complet avec le texte « CANOPÉE », si tu souhaites le garder
+
+## La suite, étape par étape
+
+### Étape 1 — Finaliser la mise en ligne
+- Mentions légales
+- Corriger les petites coquilles (« esthétique extérieure », « portes et fenêtres », « descentes d'eaux pluviales »)
+- Déclarer le site à Google (Search Console) pour qu'il soit bien référencé
+
+### Étape 2 — Retravailler les textes ensemble
+Dépend de tes réponses aux questions 1 à 5.
+- Un accueil qui dit clairement qui tu es, ce que tu fais et où, avec un bouton « Demander un devis »
+- Une présentation en deux temps : « Qui je suis » et « Ma façon de travailler » (rencontre, étude et plans, devis, fabrication, pose)
+- Des savoir-faire complets et homogènes
+- De nouvelles sections : réalisations en photos, zone d'intervention, questions fréquentes
+- Les éléments qui rassurent : assurance décennale, devis gratuit, avis clients
+
+### Étape 3 — Être trouvé localement
+- Fiche Google Business Profile, avec photos et avis : c'est le levier le plus efficace pour un artisan
+- Mention des communes desservies sur le site
+- Demander un avis Google à la fin de chaque chantier
+
+### Étape 4 — Aller plus loin sur le design
+- Faire évoluer la mise en page au-delà de la reproduction du Google Sites
+- Audit d'accessibilité complet (norme RGAA)
